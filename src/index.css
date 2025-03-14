@@ -1,0 +1,50 @@
+.todo-container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.todo-form input {
+  padding: 8px;
+  width: 70%;
+}
+
+.todo-item input[type="checkbox"] {
+  width: 20px;  /* Increase checkbox width */
+  height: 20px; /* Increase checkbox height */
+  cursor: pointer;
+  accent-color: rgb(175, 48, 48); /* Change color */
+}
+
+.todo-form button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: aliceblue;
+  color:rgb(175, 48, 48);
+}
+
+.todo-form button:hover {
+  color: black;
+  background-color: rgb(175, 48, 48);;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 8px;
+  margin: 20px 26px;
+  border-radius: 5px;
+}
+
+.todo-item input {
+  margin-right: 10px;
+}
+
+.todo-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
